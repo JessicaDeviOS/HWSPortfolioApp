@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ProjectsView: View {
+    static let openTag: String? = "Open"
+    static let closedTag: String? = "Closed"
     let showClosedProjects: Bool
     // can't use @FetchRequest because our FetchRequest cannot be created till we know the value of showClosedProjects
     let projects: FetchRequest<Project>
