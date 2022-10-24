@@ -10,6 +10,7 @@
 		4C95C7912906EF11000320AA /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95C7902906EF11000320AA /* ItemRowView.swift */; };
 		4C95C79729071CF4000320AA /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95C79629071CF4000320AA /* ProjectHeaderView.swift */; };
 		4C95C79929071F10000320AA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C95C79829071F10000320AA /* Colors.xcassets */; };
+		4C95C79B2907261B000320AA /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95C79A2907261B000320AA /* EditProjectView.swift */; };
 		4CD1164C28FDDEEB00974D0F /* HWSPortfolioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1164B28FDDEEB00974D0F /* HWSPortfolioAppApp.swift */; };
 		4CD1164E28FDDEEB00974D0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1164D28FDDEEB00974D0F /* ContentView.swift */; };
 		4CD1165028FDDEEE00974D0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1164F28FDDEEE00974D0F /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		4C95C7902906EF11000320AA /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		4C95C79629071CF4000320AA /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		4C95C79829071F10000320AA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4C95C79A2907261B000320AA /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		4CD1164828FDDEEB00974D0F /* HWSPortfolioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWSPortfolioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD1164B28FDDEEB00974D0F /* HWSPortfolioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSPortfolioAppApp.swift; sourceTree = "<group>"; };
 		4CD1164D28FDDEEB00974D0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				4C95C7902906EF11000320AA /* ItemRowView.swift */,
 				4C95C79629071CF4000320AA /* ProjectHeaderView.swift */,
 				4C95C79829071F10000320AA /* Colors.xcassets */,
+				4C95C79A2907261B000320AA /* EditProjectView.swift */,
 			);
 			path = HWSPortfolioApp;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				4C95C7912906EF11000320AA /* ItemRowView.swift in Sources */,
 				4CD1164E28FDDEEB00974D0F /* ContentView.swift in Sources */,
 				4CD1169C28FDF86D00974D0F /* HomeView.swift in Sources */,
+				4C95C79B2907261B000320AA /* EditProjectView.swift in Sources */,
 				4CD1164C28FDDEEB00974D0F /* HWSPortfolioAppApp.swift in Sources */,
 				4CD116A029031C7B00974D0F /* Item-CoreDataHelpers.swift in Sources */,
 				4CD116AC2906E7A300974D0F /* EditItemView.swift in Sources */,
