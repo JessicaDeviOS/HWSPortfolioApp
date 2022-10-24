@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ProjectsView: View {
+    static let openTag: String? = "Open"
+    static let closedTag: String? = "Closed"
     let showClosedProjects: Bool
     // can't use @FetchRequest because our FetchRequest cannot be created till we know the value of showClosedProjects
     let projects: FetchRequest<Project>
@@ -23,8 +25,8 @@ struct ProjectsView: View {
             List {
                 ForEach(projects.wrappedValue) { project in
                     Section(header: Text(project.title ?? "")) {
-                        ForEach(project.items?.allObjects as? [Item] ?? []) { item in
-                            Text(item.title ?? "")
+                        ForEach(project.projectItems) { item in
+                            ItemRowView(item: item)
                         }
                     }
                 }
