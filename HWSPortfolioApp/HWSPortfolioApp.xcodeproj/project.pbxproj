@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C95C7912906EF11000320AA /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95C7902906EF11000320AA /* ItemRowView.swift */; };
 		4CD1164C28FDDEEB00974D0F /* HWSPortfolioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1164B28FDDEEB00974D0F /* HWSPortfolioAppApp.swift */; };
 		4CD1164E28FDDEEB00974D0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1164D28FDDEEB00974D0F /* ContentView.swift */; };
 		4CD1165028FDDEEE00974D0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1164F28FDDEEE00974D0F /* Assets.xcassets */; };
@@ -17,9 +18,11 @@
 		4CD1169E28FDF93100974D0F /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1169D28FDF93100974D0F /* ProjectsView.swift */; };
 		4CD116A029031C7B00974D0F /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1169F29031C7B00974D0F /* Item-CoreDataHelpers.swift */; };
 		4CD116A229031DA400974D0F /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD116A129031DA400974D0F /* Project-CoreDataHelpers.swift */; };
+		4CD116AC2906E7A300974D0F /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD116AB2906E7A300974D0F /* EditItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C95C7902906EF11000320AA /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		4CD1164828FDDEEB00974D0F /* HWSPortfolioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWSPortfolioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD1164B28FDDEEB00974D0F /* HWSPortfolioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSPortfolioAppApp.swift; sourceTree = "<group>"; };
 		4CD1164D28FDDEEB00974D0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 		4CD1169D28FDF93100974D0F /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		4CD1169F29031C7B00974D0F /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		4CD116A129031DA400974D0F /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		4CD116AB2906E7A300974D0F /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				4CD1169D28FDF93100974D0F /* ProjectsView.swift */,
 				4CD1169F29031C7B00974D0F /* Item-CoreDataHelpers.swift */,
 				4CD116A129031DA400974D0F /* Project-CoreDataHelpers.swift */,
+				4CD116AB2906E7A300974D0F /* EditItemView.swift */,
+				4C95C7902906EF11000320AA /* ItemRowView.swift */,
 			);
 			path = HWSPortfolioApp;
 			sourceTree = "<group>";
@@ -163,10 +169,12 @@
 				4CD1165B28FDE01700974D0F /* Main.xcdatamodeld in Sources */,
 				4CD116A229031DA400974D0F /* Project-CoreDataHelpers.swift in Sources */,
 				4CD1165D28FDE3C400974D0F /* DataController.swift in Sources */,
+				4C95C7912906EF11000320AA /* ItemRowView.swift in Sources */,
 				4CD1164E28FDDEEB00974D0F /* ContentView.swift in Sources */,
 				4CD1169C28FDF86D00974D0F /* HomeView.swift in Sources */,
 				4CD1164C28FDDEEB00974D0F /* HWSPortfolioAppApp.swift in Sources */,
 				4CD116A029031C7B00974D0F /* Item-CoreDataHelpers.swift in Sources */,
+				4CD116AC2906E7A300974D0F /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
